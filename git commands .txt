@@ -1,0 +1,37 @@
+Creating a new project :
+npx create-react-app projectname
+cd projectname npm install
+code .
+npm start -> Live server
+after entering visual code in src create an folder (Components)->Body (Files)
+Camel Case : Set count use camel case
+Image path ivvali antey project lo src ki velli assests aney folder ichi images paste 
+
+
+
+
+cd Projectname(ReactBatch10)
+code .
+
+
+
+
+
+
+Date : 15-12-2023
+
+
+
+=> After creating the repository we have to add the all files like read.me, pacakge.json, package.lock.json below here are the steps creating an git clone 
+
+1. First step here we have to create an repository and their we have to copy the git clone link 
+2. and then enter into git bash their we have to give git clone and their beside we have to paste the link paste shortcut in git bash (right click paste)
+3. and then their we have to cd (Change directory) and then we have to give project file name which we have to give.
+4. and then check list (ls)
+5. and then here we have to give project name.
+6. and then check once list name.
+7. here is the command for going back to previous files (cd ..)
+8. and here after creating the all the files all we have add the files the command is (git add)
+9. and then here we have to commit all the files the command is (git commit-m project name).
+10. and here finally we have to pull all the codes.
+11. and here finally we have to push all the codes.
