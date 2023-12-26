@@ -2,4 +2,5 @@ Commands for React :
 React Start Newly Commands :
 npm start Fresh ga open cheyatam
 npm install new project vachinappudu
-Ctrl C - React Software will Stop Working 
+Ctrl C - To stop the process in Terminal/gitbash/powershell
+will Stop Working it is a (Linux command)
