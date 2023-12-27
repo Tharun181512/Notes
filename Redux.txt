@@ -1,0 +1,71 @@
+                                                                     Redux-Tutorials
+																	 
+-> Redux is an predicatble state container for Javascript applications.
+-> It is used commonly used with React, but it can be use with any other javascript framwork(or) library.
+     There are three types of Applications.
+	  -> State
+	  -> Store
+	  -> Action 
+	  
+-> Pacakges required to use redux
+npm install redux - it is only used for redux software.
+npm install react-redux - it is only used for react + redux.
+npm install redux-thunk
+npm install redux-devtools-extension - it is only used for extension web.
+
+Major terms we use in redux: 
+-> Actions, reducer, store.
+
+React-Redux : 
+-> redcat-redux is a library that provides blindings b/w React,redux helping you integrate the two seamlessly.
+Why will we use react-redux : 
+-> connect react components to the redux store.
+-> access to redux store state.
+-> dispatch actions.
+-> efficient rendering.
+-> selector functions.
+-> provider component.
+-> integration with react hooks.
+-> centralized state management.
+
+Redux-thunk :
+Redux-thunk is a middleware for redux, a popular state management library in the react eco-system. 
+it is used to handle asynchronus operations in redux applications.
+Why will we use Redux-thunk :
+-> handling asynchronus actions.
+-> side effects.
+-> seperation of concerns.
+-> access to dispatch & getstate.
+-> conditional dispatch.
+-> easier testing.
+
+Redux-DevTools-Extension :
+redux-devtools-extension is a browser extension that enhances the developement experience when working with redux.
+It provides a set of tools and features of debugging,inspecting, & time-travelling through your redux state.
+Why will we use Redux-DevTools-Extension :
+-> state inspection.
+-> time-travel Debugging.
+-> action logging.
+-> redux devtools ui.
+-> integration with middleware.
+-> export & import state.
+-> performance monitoring.
+-> cross-browser support.
+
+
+
+
+
+
+Differences betweeen Old Redux & Redux Toolkit 
+
+
+             Old Redux                                                                                Redux-Toolkit
+		https://redux.js.org                                                                   https://redux-toolkit.js.org
+	-> You have to configure redux devtool Extension Explicity.                            -> It provides automatic support for redux devtools extension.
+	-> We need to manually handle and change the state immutably.                          -> It provides the immer.js library which automatically changes the code immutably.
+	-> Configuring a redux store is to complicated.                                        -> Configuring a redux store is much easier and built in support of middleware.
+	-> need to create reducess & creators seperately-lots of boilplater code.              -> A createSlice() function that comes in hand to replace create action & creater reducer function with a single function.
+	-> lots of code need to write to handle asynchronic nows request & handling            -> create asyncthunk to make asynchronous requests.
+	   error code was also manual.  
+    -> class based implementation.                                                         -> functional implementation with typescript and supports of hooks.	   
